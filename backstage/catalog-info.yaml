@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: enterprise-kyverno-operator
+  annotations:
+    backstage.io/kubernetes-id: enterprise-kyverno-operator
 spec:
   lifecycle: production
   owner: my-team
